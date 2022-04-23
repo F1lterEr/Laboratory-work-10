@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -41,7 +40,7 @@ public class Main {
                 System.out.println("Строка палиндром.");
             }
             else{
-                System.out.println("Число не палиндром.");
+                System.out.println("Строка не палиндром.");
             }
         }
     }
