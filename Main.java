@@ -1,7 +1,5 @@
 package com.company;
-import java.util.Locale;
 import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class Main {
         System.out.println("Введите строку: ");
         String str = scanner.nextLine();
         String str2 = str.replace(" ", "");
-        String str3 = str2.toLowerCase(Locale.ROOT);
+        String str3 = str2.toLowerCase();
         System.out.println("Ваша строка: " + str);
         int length = str3.length();
         char[] c = str3.toCharArray();
