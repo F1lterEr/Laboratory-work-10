@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in); //Ввод
         System.out.println("Введите строку: ");
         String str = scanner.nextLine();
-        String str2 = str.replace(" ", "");
+        String str2 = str.toLowerCase().replace(" ", "");
         StringBuilder sb = new StringBuilder(str2);
         if (str2.equals(sb.reverse().toString())){
             System.out.println("Строка палиндром");
